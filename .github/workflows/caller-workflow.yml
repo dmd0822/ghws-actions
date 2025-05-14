@@ -1,0 +1,7 @@
+name: Caller Workflow
+on: [push, workflow_dispatch]
+jobs:
+  call-reusable-workflow:
+    uses: ./.github/workflows/reusable-workflow.yml
+    with:
+      param1: 'Hello, world!'
