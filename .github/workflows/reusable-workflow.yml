@@ -10,4 +10,5 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Input parameter: ${{ inputs.param1 }}"
+      - name: Echo input parameter
+        run: "echo \"Input parameter: ${{ inputs.param1 }}\""
