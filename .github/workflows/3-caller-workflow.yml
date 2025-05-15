@@ -5,3 +5,8 @@ jobs:
     uses: ./.github/workflows/3a-reusable-workflow.yml
     with:
       param1: 'Hello, world!'
+
+  call-reusable-workflow2:
+    uses: ./.github/workflows/3a-reusable-workflow.yml
+    with:
+      param1: 'Hello, a second time!'
