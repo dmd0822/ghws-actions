@@ -9,3 +9,7 @@ jobs:
         uses: dmd0822/hello-world-docker-action@v1
         with:
           who-to-greet: 'GitHub Team'
+      - name: Say hello 2
+        uses: dmd0822/hello-world-docker-action@v2
+        with:
+          who-to-greet: 'GitHub Team'
