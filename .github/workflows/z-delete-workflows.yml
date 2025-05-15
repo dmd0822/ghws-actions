@@ -1,4 +1,4 @@
-name:  99 - Delete Workflows
+name:  z - Delete Workflows
 
 on: [workflow_dispatch]
 

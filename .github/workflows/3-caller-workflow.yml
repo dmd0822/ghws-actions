@@ -2,6 +2,6 @@ name: 3 - Caller Workflow
 on: [push, workflow_dispatch]
 jobs:
   call-reusable-workflow:
-    uses: ./.github/workflows/reusable-workflow.yml
+    uses: ./.github/workflows/3a-reusable-workflow.yml
     with:
       param1: 'Hello, world!'
