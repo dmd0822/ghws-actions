@@ -1,4 +1,4 @@
-name: Custom Permissions Example
+name: 2 - Custom Permissions Example
  
 on: [push, workflow_dispatch]
 

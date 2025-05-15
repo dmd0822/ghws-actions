@@ -1,4 +1,4 @@
-name: Init
+name: 0 - Init
 
 on: [create, workflow_dispatch]
 

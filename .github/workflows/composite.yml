@@ -1,4 +1,4 @@
-name: Run Composite Action
+name: 4 - Run Composite Action
 
 on:
     push:
