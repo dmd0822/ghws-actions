@@ -16,3 +16,6 @@ jobs:
 
           - name: Run custom composite action
             uses: ./.github/actions/my-composite-action
+            with:
+              my_name: "Octocat"
+              input2: "Another input value"
