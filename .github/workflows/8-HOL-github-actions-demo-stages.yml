@@ -1,4 +1,4 @@
-name: 6 - GitHub Actions Demo
+name: 8 - GitHub Actions Demo
 
 on:
   push:
