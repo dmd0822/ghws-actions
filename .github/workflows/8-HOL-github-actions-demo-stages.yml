@@ -39,6 +39,12 @@ jobs:
         run: |
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
+      - name: Say Hello
+        if: ${{ github.event.inputs.say-hello == 'true' }}
+        run: |
+          echo "${{ github.event.inputs.greeting }} world!"
+          echo "The job was triggered by event: ${{ github.event_name }}"
+          echo "The name of your branch is ${{ github.ref }} and your repository is ."
   Dev:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
